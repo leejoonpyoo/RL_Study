@@ -7,13 +7,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 class Model(nn.Module):
-	def __init__(self):
-		super(Model, self).__init__()
-		self.fc1 = nn.Linear(1, 128)
-		self.fc2 = nn.Linear(128, 128)
-		self.fc3 = nn.Linear(128, 128)
-		self.fc4 = nn.Linear(128, 1, bias=False)
-			
+    def __init__(self):
+        super(Model, self).__init__()
+        self.fc1 = nn.Linear(1, 128)
+        self.fc2 = nn.Linear(128, 128)
+        self.fc3 = nn.Linear(128, 128)
+        self.fc4 = nn.Linear(128, 1, bias=False)
+
     def forward(self, x):
         x = F.relu(self.fc1(x))
         x = F.relu(self.fc2(x))
@@ -29,8 +29,7 @@ def plot_results(model):
     x = np.linspace(0, 5, 100)
     input_x = torch.from_numpy(x).float().unsqueeze(1)
     plt.plot(x, true_fun(x), label="Truth")
-    plt.scatter(X, y, label="Samples")
-    plt.scatter(x, model(input_x).detach().numpy(), label="Prediction")
+    plt.plot(x, model(input_x).detach().numpy(), label="Prediction")
     plt.legend(loc='lower right', fontsize=15)
     plt.xlim((0, 5))
     plt.ylim((-1, 5))
