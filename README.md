@@ -2,10 +2,14 @@
 ## ch5.Model-Free Prediction
 - `Monte_Carlo.ipynb`
 - `Temporal_Difference.ipynb`
-## ch5.Model-Free Control
+## ch6.Model-Free Control
+- `MC_control.py`
+- `SARSA.py`
+- `QLearning.py`
 ## ch7.DeepRL
-- `NeuralNet.ipynb`
 - `NeuralNet.py`
 ## ch8.Value-based Agent
 - `DQN.py`
-- `value-based_agent.ipynb`
+## ch9.policy-based Agent
+- `REINFORCE.py`
+- `Actor-Critic.py`
