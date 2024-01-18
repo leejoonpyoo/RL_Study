@@ -1,0 +1,10 @@
+/home/junpyolee/anaconda3/envs/kotorch/lib/python3.8/site-packages/gym/utils/passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+Traceback (most recent call last):
+  File "Project/Pendulum/main.py", line 90, in <module>
+    main()
+  File "Project/Pendulum/main.py", line 63, in main
+    model.train_net()
+  File "/home/junpyolee/git_repository/RL_Study/Project/Pendulum/src/REINFORCE.py", line 35, in train_net
+    for r, prob in self.data[::-1]:
+ValueError: too many values to unpack (expected 2)

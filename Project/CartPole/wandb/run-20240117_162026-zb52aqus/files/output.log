@@ -1,0 +1,14 @@
+/home/junpyolee/anaconda3/envs/kotorch/lib/python3.8/site-packages/gym/utils/passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+Traceback (most recent call last):
+  File "main.py", line 70, in <module>
+    main()
+  File "main.py", line 57, in main
+    model.train_net()
+  File "/home/junpyolee/git_repository/RL_Study/Project/CartPole/src/REINFORCE.py", line 38, in train_net
+    loss.backward()
+  File "/home/junpyolee/anaconda3/envs/kotorch/lib/python3.8/site-packages/torch/_tensor.py", line 492, in backward
+    torch.autograd.backward(
+  File "/home/junpyolee/anaconda3/envs/kotorch/lib/python3.8/site-packages/torch/autograd/__init__.py", line 251, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+RuntimeError: element 0 of tensors does not require grad and does not have a grad_fn

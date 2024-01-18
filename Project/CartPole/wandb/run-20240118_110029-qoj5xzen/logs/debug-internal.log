@@ -1,0 +1,759 @@
+2024-01-18 11:00:30,323 INFO    StreamThr :170219 [internal.py:wandb_internal():86] W&B internal server running at pid: 170219, started at: 2024-01-18 11:00:30.322555
+2024-01-18 11:00:30,323 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status
+2024-01-18 11:00:30,325 INFO    WriterThread:170219 [datastore.py:open_for_write():87] open: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/run-qoj5xzen.wandb
+2024-01-18 11:00:30,325 DEBUG   SenderThread:170219 [sender.py:send():382] send: header
+2024-01-18 11:00:30,325 DEBUG   SenderThread:170219 [sender.py:send():382] send: run
+2024-01-18 11:00:30,970 INFO    SenderThread:170219 [dir_watcher.py:__init__():211] watching files in: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files
+2024-01-18 11:00:30,970 INFO    SenderThread:170219 [sender.py:_start_run_threads():1136] run started: qoj5xzen with start time 1705543229.496988
+2024-01-18 11:00:30,977 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: check_version
+2024-01-18 11:00:30,978 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: check_version
+2024-01-18 11:00:31,029 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: run_start
+2024-01-18 11:00:31,029 DEBUG   HandlerThread:170219 [system_info.py:__init__():27] System info init
+2024-01-18 11:00:31,029 DEBUG   HandlerThread:170219 [system_info.py:__init__():42] System info init done
+2024-01-18 11:00:31,029 INFO    HandlerThread:170219 [system_monitor.py:start():194] Starting system monitor
+2024-01-18 11:00:31,030 INFO    SystemMonitor:170219 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-01-18 11:00:31,030 INFO    HandlerThread:170219 [system_monitor.py:probe():214] Collecting system info
+2024-01-18 11:00:31,030 INFO    SystemMonitor:170219 [interfaces.py:start():190] Started cpu monitoring
+2024-01-18 11:00:31,031 INFO    SystemMonitor:170219 [interfaces.py:start():190] Started disk monitoring
+2024-01-18 11:00:31,031 INFO    SystemMonitor:170219 [interfaces.py:start():190] Started gpu monitoring
+2024-01-18 11:00:31,031 INFO    SystemMonitor:170219 [interfaces.py:start():190] Started memory monitoring
+2024-01-18 11:00:31,032 INFO    SystemMonitor:170219 [interfaces.py:start():190] Started network monitoring
+2024-01-18 11:00:31,040 DEBUG   HandlerThread:170219 [system_info.py:probe():151] Probing system
+2024-01-18 11:00:31,041 DEBUG   HandlerThread:170219 [system_info.py:_probe_git():136] Probing git
+2024-01-18 11:00:31,061 DEBUG   HandlerThread:170219 [system_info.py:_probe_git():144] Probing git done
+2024-01-18 11:00:31,061 DEBUG   HandlerThread:170219 [system_info.py:probe():199] Probing system done
+2024-01-18 11:00:31,061 DEBUG   HandlerThread:170219 [system_monitor.py:probe():223] {'os': 'Linux-6.2.0-39-generic-x86_64-with-glibc2.17', 'python': '3.8.18', 'heartbeatAt': '2024-01-18T02:00:31.040962', 'startedAt': '2024-01-18T02:00:29.494501', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'main.py', 'codePathLocal': 'main.py', 'codePath': 'Project/CartPole/main.py', 'git': {'remote': 'git@github.com:leejoonpyoo/RL_Study.git', 'commit': '9849442c10b5a54935f2e102d98e53ce488c20f7'}, 'email': 'leejoonpyoo@kaist.ac.kr', 'root': '/home/junpyolee/git_repository/RL_Study', 'host': 'junpyolee-linux-server', 'username': 'junpyolee', 'executable': '/home/junpyolee/anaconda3/envs/kotorch/bin/python', 'cpu_count': 12, 'cpu_count_logical': 24, 'cpu_freq': {'current': 3662.3243333333335, 'min': 2200.0, 'max': 3700.0}, 'cpu_freq_per_core': [{'current': 3591.328, 'min': 2200.0, 'max': 3700.0}, {'current': 3590.188, 'min': 2200.0, 'max': 3700.0}, {'current': 3489.454, 'min': 2200.0, 'max': 3700.0}, {'current': 3700.0, 'min': 2200.0, 'max': 3700.0}, {'current': 3595.139, 'min': 2200.0, 'max': 3700.0}, {'current': 3700.0, 'min': 2200.0, 'max': 3700.0}, {'current': 3403.649, 'min': 2200.0, 'max': 3700.0}, {'current': 3700.0, 'min': 2200.0, 'max': 3700.0}, {'current': 3662.637, 'min': 2200.0, 'max': 3700.0}, {'current': 3677.081, 'min': 2200.0, 'max': 3700.0}, {'current': 3687.06, 'min': 2200.0, 'max': 3700.0}, {'current': 3659.574, 'min': 2200.0, 'max': 3700.0}, {'current': 3596.409, 'min': 2200.0, 'max': 3700.0}, {'current': 2998.473, 'min': 2200.0, 'max': 3700.0}, {'current': 2800.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 3700.0, 'min': 2200.0, 'max': 3700.0}, {'current': 3593.292, 'min': 2200.0, 'max': 3700.0}, {'current': 2964.979, 'min': 2200.0, 'max': 3700.0}, {'current': 3677.599, 'min': 2200.0, 'max': 3700.0}, {'current': 4127.321, 'min': 2200.0, 'max': 3700.0}, {'current': 3678.981, 'min': 2200.0, 'max': 3700.0}, {'current': 3677.126, 'min': 2200.0, 'max': 3700.0}, {'current': 3700.0, 'min': 2200.0, 'max': 3700.0}], 'disk': {'/': {'total': 915.3213348388672, 'used': 83.67474746704102}}, 'gpu': 'NVIDIA GeForce RTX 4070', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4070', 'memory_total': 12878610432}], 'memory': {'total': 62.694087982177734}}
+2024-01-18 11:00:31,061 INFO    HandlerThread:170219 [system_monitor.py:probe():224] Finished collecting system info
+2024-01-18 11:00:31,061 INFO    HandlerThread:170219 [system_monitor.py:probe():227] Publishing system info
+2024-01-18 11:00:31,061 DEBUG   HandlerThread:170219 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-01-18 11:00:31,972 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_created():271] file/dir created: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/conda-environment.yaml
+2024-01-18 11:00:32,503 DEBUG   HandlerThread:170219 [system_info.py:_save_conda():220] Saving conda packages done
+2024-01-18 11:00:32,504 INFO    HandlerThread:170219 [system_monitor.py:probe():229] Finished publishing system info
+2024-01-18 11:00:32,504 DEBUG   SenderThread:170219 [sender.py:send():382] send: files
+2024-01-18 11:00:32,504 INFO    SenderThread:170219 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-01-18 11:00:32,508 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: python_packages
+2024-01-18 11:00:32,509 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: python_packages
+2024-01-18 11:00:32,510 DEBUG   SenderThread:170219 [sender.py:send():382] send: telemetry
+2024-01-18 11:00:32,550 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:00:32,550 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:00:32,551 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:00:32,971 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/conda-environment.yaml
+2024-01-18 11:00:32,971 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_created():271] file/dir created: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/wandb-metadata.json
+2024-01-18 11:00:32,971 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_created():271] file/dir created: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/requirements.txt
+2024-01-18 11:00:33,376 INFO    wandb-upload_0:170219 [upload_job.py:push():131] Uploaded file /tmp/tmprtx2uspuwandb/kmdacro0-wandb-metadata.json
+2024-01-18 11:00:33,971 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_created():271] file/dir created: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/output.log
+2024-01-18 11:00:35,972 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/output.log
+2024-01-18 11:00:36,040 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:00:41,040 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:00:41,065 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 11:00:41,066 DEBUG   SenderThread:170219 [sender.py:send():382] send: history
+2024-01-18 11:00:41,066 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 11:00:41,067 INFO    SenderThread:170219 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-18 11:00:41,973 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_created():271] file/dir created: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/wandb-summary.json
+2024-01-18 11:00:43,974 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/output.log
+2024-01-18 11:00:46,068 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:00:47,509 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:00:47,509 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:00:47,509 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:00:50,006 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 11:00:50,007 DEBUG   SenderThread:170219 [sender.py:send():382] send: history
+2024-01-18 11:00:50,007 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 11:00:50,008 INFO    SenderThread:170219 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-18 11:00:50,975 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/wandb-summary.json
+2024-01-18 11:00:51,975 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/output.log
+2024-01-18 11:00:52,009 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:00:57,009 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:01:00,742 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 11:01:00,742 DEBUG   SenderThread:170219 [sender.py:send():382] send: history
+2024-01-18 11:01:00,742 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 11:01:00,744 INFO    SenderThread:170219 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-18 11:01:00,977 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/wandb-summary.json
+2024-01-18 11:01:01,977 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/output.log
+2024-01-18 11:01:02,509 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:01:02,509 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:01:02,510 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:01:02,834 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:01:03,978 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/config.yaml
+2024-01-18 11:01:08,073 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:01:13,074 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:01:13,506 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 11:01:13,507 DEBUG   SenderThread:170219 [sender.py:send():382] send: history
+2024-01-18 11:01:13,507 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 11:01:13,507 INFO    SenderThread:170219 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-18 11:01:13,980 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/wandb-summary.json
+2024-01-18 11:01:15,981 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/output.log
+2024-01-18 11:01:17,509 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:01:17,509 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:01:17,509 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:01:18,798 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:01:23,798 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:01:25,914 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 11:01:25,915 DEBUG   SenderThread:170219 [sender.py:send():382] send: history
+2024-01-18 11:01:25,915 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 11:01:25,916 INFO    SenderThread:170219 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-18 11:01:25,983 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/wandb-summary.json
+2024-01-18 11:01:27,983 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/output.log
+2024-01-18 11:01:28,916 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:01:31,032 DEBUG   SystemMonitor:170219 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-01-18 11:01:31,033 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:01:32,509 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:01:32,510 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:01:32,510 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:01:34,760 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:01:39,762 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 11:01:39,763 DEBUG   SenderThread:170219 [sender.py:send():382] send: history
+2024-01-18 11:01:39,763 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:01:39,763 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 11:01:39,764 INFO    SenderThread:170219 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-18 11:01:39,986 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/wandb-summary.json
+2024-01-18 11:01:41,986 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/output.log
+2024-01-18 11:01:44,765 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:01:47,509 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:01:47,509 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:01:47,510 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:01:49,793 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:01:52,642 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 11:01:52,643 DEBUG   SenderThread:170219 [sender.py:send():382] send: history
+2024-01-18 11:01:52,643 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 11:01:52,643 INFO    SenderThread:170219 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-18 11:01:52,989 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/wandb-summary.json
+2024-01-18 11:01:53,989 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/output.log
+2024-01-18 11:01:55,644 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:02:00,645 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:02:01,033 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:02:02,509 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:02:02,510 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:02:02,510 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:02:05,070 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 11:02:05,071 DEBUG   SenderThread:170219 [sender.py:send():382] send: history
+2024-01-18 11:02:05,071 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 11:02:05,072 INFO    SenderThread:170219 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-18 11:02:05,992 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/output.log
+2024-01-18 11:02:05,992 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/wandb-summary.json
+2024-01-18 11:02:06,073 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:02:11,073 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:02:16,074 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:02:17,509 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:02:17,510 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:02:17,510 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:02:21,849 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:02:22,874 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 11:02:22,875 DEBUG   SenderThread:170219 [sender.py:send():382] send: history
+2024-01-18 11:02:22,875 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 11:02:22,875 INFO    SenderThread:170219 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-18 11:02:22,995 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/wandb-summary.json
+2024-01-18 11:02:23,996 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/output.log
+2024-01-18 11:02:26,876 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:02:31,034 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:02:32,034 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:02:32,509 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:02:32,510 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:02:32,510 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:02:37,831 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:02:42,831 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:02:44,058 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 11:02:44,059 DEBUG   SenderThread:170219 [sender.py:send():382] send: history
+2024-01-18 11:02:44,059 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 11:02:44,061 INFO    SenderThread:170219 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-18 11:02:45,000 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/wandb-summary.json
+2024-01-18 11:02:46,000 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/output.log
+2024-01-18 11:02:47,510 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:02:47,510 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:02:47,511 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:02:48,775 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:02:53,775 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:02:58,776 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:03:01,035 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:03:02,510 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:03:02,510 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:03:02,550 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:03:04,767 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:03:05,266 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 11:03:05,267 DEBUG   SenderThread:170219 [sender.py:send():382] send: history
+2024-01-18 11:03:05,267 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 11:03:05,268 INFO    SenderThread:170219 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-18 11:03:06,004 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/wandb-summary.json
+2024-01-18 11:03:08,005 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/output.log
+2024-01-18 11:03:10,269 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:03:15,269 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:03:17,510 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:03:17,510 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:03:17,510 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:03:20,844 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:03:25,846 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 11:03:25,847 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:03:25,847 DEBUG   SenderThread:170219 [sender.py:send():382] send: history
+2024-01-18 11:03:25,847 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 11:03:25,847 INFO    SenderThread:170219 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-18 11:03:26,009 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/wandb-summary.json
+2024-01-18 11:03:28,009 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/output.log
+2024-01-18 11:03:30,848 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:03:31,035 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:03:32,510 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:03:32,510 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:03:32,510 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:03:35,852 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:03:40,852 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:03:45,853 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:03:47,510 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:03:47,510 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:03:47,550 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:03:49,626 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 11:03:49,627 DEBUG   SenderThread:170219 [sender.py:send():382] send: history
+2024-01-18 11:03:49,627 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 11:03:49,627 INFO    SenderThread:170219 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-18 11:03:50,014 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/wandb-summary.json
+2024-01-18 11:03:51,628 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:03:52,014 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/output.log
+2024-01-18 11:03:56,628 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:04:01,036 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:04:02,036 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:04:02,510 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:04:02,510 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:04:02,510 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:04:07,754 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:04:12,786 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 11:04:12,787 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:04:12,787 DEBUG   SenderThread:170219 [sender.py:send():382] send: history
+2024-01-18 11:04:12,787 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 11:04:12,788 INFO    SenderThread:170219 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-18 11:04:13,019 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/wandb-summary.json
+2024-01-18 11:04:14,019 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/output.log
+2024-01-18 11:04:17,510 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:04:17,510 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:04:17,511 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:04:18,762 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:04:23,762 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:04:28,763 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:04:31,036 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:04:32,510 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:04:32,510 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:04:32,550 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:04:33,826 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:04:38,827 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:04:40,807 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 11:04:40,807 DEBUG   SenderThread:170219 [sender.py:send():382] send: history
+2024-01-18 11:04:40,807 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 11:04:40,808 INFO    SenderThread:170219 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-18 11:04:41,025 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/wandb-summary.json
+2024-01-18 11:04:42,025 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/output.log
+2024-01-18 11:04:44,809 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:04:47,510 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:04:47,511 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:04:47,511 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:04:49,834 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:04:54,835 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:04:59,835 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:05:01,037 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:05:02,510 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:05:02,511 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:05:02,558 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:05:05,781 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:05:10,782 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:05:15,782 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:05:17,510 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:05:17,511 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:05:17,554 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:05:20,813 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:05:25,814 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:05:28,090 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 11:05:28,091 DEBUG   SenderThread:170219 [sender.py:send():382] send: history
+2024-01-18 11:05:28,091 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 11:05:28,092 INFO    SenderThread:170219 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-18 11:05:29,035 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/wandb-summary.json
+2024-01-18 11:05:30,035 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/output.log
+2024-01-18 11:05:31,037 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:05:31,038 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:05:32,510 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:05:32,511 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:05:32,512 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:05:36,794 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:05:41,795 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:05:46,795 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:05:47,511 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:05:47,511 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:05:47,554 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:05:51,819 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:05:56,820 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:06:01,038 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:06:02,039 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:06:02,511 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:06:02,511 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:06:02,554 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:06:07,844 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:06:12,845 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:06:17,511 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:06:17,511 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:06:17,512 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:06:18,773 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:06:22,482 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 11:06:22,483 DEBUG   SenderThread:170219 [sender.py:send():382] send: history
+2024-01-18 11:06:22,483 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 11:06:22,483 INFO    SenderThread:170219 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-18 11:06:23,046 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/wandb-summary.json
+2024-01-18 11:06:24,047 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/output.log
+2024-01-18 11:06:24,484 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:06:29,484 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:06:31,038 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:06:32,511 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:06:32,511 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:06:32,511 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:06:34,808 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:06:39,809 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:06:44,809 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:06:47,511 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:06:47,511 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:06:47,554 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:06:49,850 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:06:54,851 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:06:59,852 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:07:01,039 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:07:02,511 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:07:02,511 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:07:02,558 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:07:05,836 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:07:10,837 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:07:15,837 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:07:17,511 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:07:17,511 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:07:17,554 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:07:21,359 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:07:21,406 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 11:07:21,407 DEBUG   SenderThread:170219 [sender.py:send():382] send: history
+2024-01-18 11:07:21,407 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 11:07:21,407 INFO    SenderThread:170219 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-18 11:07:22,059 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/wandb-summary.json
+2024-01-18 11:07:24,060 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/output.log
+2024-01-18 11:07:26,408 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:07:31,039 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:07:32,040 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:07:32,511 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:07:32,511 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:07:32,512 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:07:37,753 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:07:42,754 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:07:47,511 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:07:47,512 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:07:47,558 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:07:47,840 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:07:52,840 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:07:57,841 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:08:01,040 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:08:02,512 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:08:02,512 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:08:02,513 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:08:03,791 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:08:08,791 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:08:13,530 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 11:08:13,531 DEBUG   SenderThread:170219 [sender.py:send():382] send: history
+2024-01-18 11:08:13,531 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 11:08:13,531 INFO    SenderThread:170219 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-18 11:08:14,071 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/wandb-summary.json
+2024-01-18 11:08:14,531 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:08:16,071 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/output.log
+2024-01-18 11:08:17,511 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:08:17,512 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:08:17,512 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:08:19,771 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:08:24,772 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:08:29,772 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:08:31,040 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:08:32,512 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:08:32,512 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:08:32,554 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:08:34,811 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:08:39,812 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:08:44,812 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:08:47,512 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:08:47,512 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:08:47,558 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:08:50,766 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:08:55,767 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:09:00,767 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:09:01,042 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:09:02,512 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:09:02,512 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:09:02,554 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:09:06,754 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:09:11,754 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:09:16,755 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:09:17,512 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:09:17,512 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:09:17,554 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:09:22,752 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:09:27,753 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:09:29,026 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 11:09:29,027 DEBUG   SenderThread:170219 [sender.py:send():382] send: history
+2024-01-18 11:09:29,027 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 11:09:29,027 INFO    SenderThread:170219 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-18 11:09:29,088 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/wandb-summary.json
+2024-01-18 11:09:30,088 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/output.log
+2024-01-18 11:09:31,042 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:09:32,512 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:09:32,512 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:09:32,512 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:09:32,837 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:09:37,838 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:09:42,839 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:09:47,512 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:09:47,512 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:09:47,558 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:09:48,798 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:09:53,798 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:09:58,799 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:10:01,047 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:10:02,512 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:10:02,512 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:10:02,554 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:10:04,773 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:10:09,774 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:10:14,774 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:10:16,786 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 11:10:16,787 DEBUG   SenderThread:170219 [sender.py:send():382] send: history
+2024-01-18 11:10:16,787 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 11:10:16,787 INFO    SenderThread:170219 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-18 11:10:17,098 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/wandb-summary.json
+2024-01-18 11:10:17,512 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:10:17,512 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:10:17,513 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:10:18,098 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/output.log
+2024-01-18 11:10:20,752 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:10:25,752 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:10:30,753 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:10:31,043 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:10:32,512 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:10:32,512 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:10:32,558 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:10:35,847 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:10:40,848 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:10:45,848 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:10:47,512 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:10:47,513 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:10:47,554 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:10:51,765 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:10:56,765 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:11:01,043 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:11:02,044 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:11:02,512 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:11:02,513 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:11:02,554 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:11:07,813 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:11:12,814 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:11:17,512 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:11:17,513 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:11:17,554 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:11:18,775 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:11:23,776 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:11:28,776 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:11:31,044 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:11:32,513 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:11:32,513 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:11:32,554 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:11:33,874 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:11:38,875 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:11:43,875 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:11:47,513 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:11:47,513 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:11:47,558 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:11:49,868 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:11:54,868 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:11:55,442 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 11:11:55,443 DEBUG   SenderThread:170219 [sender.py:send():382] send: history
+2024-01-18 11:11:55,443 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 11:11:55,443 INFO    SenderThread:170219 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-18 11:11:56,118 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/wandb-summary.json
+2024-01-18 11:11:58,119 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/output.log
+2024-01-18 11:12:00,444 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:12:01,045 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:12:02,513 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:12:02,513 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:12:02,513 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:12:05,842 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:12:10,843 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:12:15,843 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:12:17,513 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:12:17,513 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:12:17,554 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:12:21,817 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:12:26,818 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:12:31,045 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:12:32,046 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:12:32,513 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:12:32,513 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:12:32,554 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:12:37,824 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:12:42,824 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:12:47,513 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:12:47,513 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:12:47,554 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:12:47,832 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:12:52,833 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:12:57,833 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:13:01,046 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:13:02,513 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:13:02,513 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:13:02,558 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:13:03,779 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:13:08,780 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:13:13,780 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:13:17,513 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:13:17,513 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:13:17,554 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:13:18,812 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:13:23,812 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:13:28,813 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:13:31,046 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:13:32,513 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:13:32,513 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:13:32,558 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:13:33,817 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:13:38,818 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:13:43,246 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 11:13:43,247 DEBUG   SenderThread:170219 [sender.py:send():382] send: history
+2024-01-18 11:13:43,247 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 11:13:43,247 INFO    SenderThread:170219 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-18 11:13:44,141 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/output.log
+2024-01-18 11:13:44,142 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/wandb-summary.json
+2024-01-18 11:13:44,247 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:13:47,513 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:13:47,514 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:13:47,515 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:13:49,811 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:13:54,812 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:13:59,812 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:14:01,047 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:14:02,513 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:14:02,514 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:14:02,558 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:14:05,810 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:14:10,811 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:14:15,811 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:14:17,513 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:14:17,514 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:14:17,554 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:14:20,848 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:14:25,849 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:14:30,849 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:14:31,047 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:14:32,514 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:14:32,514 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:14:32,558 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:14:36,796 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:14:41,796 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:14:46,797 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:14:47,514 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:14:47,514 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:14:47,554 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:14:51,815 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:14:56,816 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:15:01,048 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:15:02,048 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:15:02,514 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:15:02,514 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:15:02,554 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:15:07,820 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:15:12,821 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:15:17,514 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:15:17,514 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:15:17,558 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:15:17,907 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:15:22,908 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:15:27,908 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:15:31,048 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:15:32,514 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:15:32,514 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:15:32,554 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:15:33,820 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:15:38,821 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:15:40,266 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-18 11:15:40,267 DEBUG   SenderThread:170219 [sender.py:send():382] send: history
+2024-01-18 11:15:40,267 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: summary_record
+2024-01-18 11:15:40,267 INFO    SenderThread:170219 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-18 11:15:41,166 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/wandb-summary.json
+2024-01-18 11:15:42,166 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/output.log
+2024-01-18 11:15:44,268 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:15:47,514 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:15:47,514 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:15:47,514 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:15:49,848 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:15:54,849 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:15:59,849 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:16:01,049 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:16:02,514 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:16:02,514 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:16:02,514 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:16:05,821 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:16:10,822 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:16:15,822 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:16:17,514 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:16:17,514 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:16:17,514 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:16:20,859 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:16:25,860 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:16:30,860 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:16:31,049 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:16:32,514 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:16:32,514 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:16:32,514 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:16:36,819 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:16:41,820 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:16:46,820 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:16:47,514 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:16:47,514 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:16:47,515 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:16:51,898 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:16:56,898 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:17:01,050 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:17:02,050 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:17:02,514 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:17:02,514 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:17:02,516 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:17:07,803 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:17:12,804 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:17:17,514 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-18 11:17:17,515 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: stop_status
+2024-01-18 11:17:17,516 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:17:18,781 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:17:22,312 DEBUG   SenderThread:170219 [sender.py:send():382] send: telemetry
+2024-01-18 11:17:22,358 DEBUG   SenderThread:170219 [sender.py:send():382] send: exit
+2024-01-18 11:17:22,358 INFO    SenderThread:170219 [sender.py:send_exit():589] handling exit code: 0
+2024-01-18 11:17:22,358 INFO    SenderThread:170219 [sender.py:send_exit():591] handling runtime: 1011
+2024-01-18 11:17:22,359 INFO    SenderThread:170219 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-18 11:17:22,359 INFO    SenderThread:170219 [sender.py:send_exit():597] send defer
+2024-01-18 11:17:22,359 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 11:17:22,359 INFO    HandlerThread:170219 [handler.py:handle_request_defer():172] handle defer: 0
+2024-01-18 11:17:22,359 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: defer
+2024-01-18 11:17:22,359 INFO    SenderThread:170219 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-01-18 11:17:22,359 INFO    SenderThread:170219 [sender.py:transition_state():617] send defer: 1
+2024-01-18 11:17:22,359 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 11:17:22,359 INFO    HandlerThread:170219 [handler.py:handle_request_defer():172] handle defer: 1
+2024-01-18 11:17:22,359 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: defer
+2024-01-18 11:17:22,359 INFO    SenderThread:170219 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-01-18 11:17:22,359 INFO    SenderThread:170219 [sender.py:transition_state():617] send defer: 2
+2024-01-18 11:17:22,359 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 11:17:22,359 INFO    HandlerThread:170219 [handler.py:handle_request_defer():172] handle defer: 2
+2024-01-18 11:17:22,359 INFO    HandlerThread:170219 [system_monitor.py:finish():203] Stopping system monitor
+2024-01-18 11:17:22,360 INFO    HandlerThread:170219 [interfaces.py:finish():202] Joined cpu monitor
+2024-01-18 11:17:22,360 DEBUG   SystemMonitor:170219 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-01-18 11:17:22,360 INFO    HandlerThread:170219 [interfaces.py:finish():202] Joined disk monitor
+2024-01-18 11:17:22,360 DEBUG   SystemMonitor:170219 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-01-18 11:17:22,425 INFO    HandlerThread:170219 [interfaces.py:finish():202] Joined gpu monitor
+2024-01-18 11:17:22,425 INFO    HandlerThread:170219 [interfaces.py:finish():202] Joined memory monitor
+2024-01-18 11:17:22,425 INFO    HandlerThread:170219 [interfaces.py:finish():202] Joined network monitor
+2024-01-18 11:17:22,425 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: defer
+2024-01-18 11:17:22,425 INFO    SenderThread:170219 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-01-18 11:17:22,425 INFO    SenderThread:170219 [sender.py:transition_state():617] send defer: 3
+2024-01-18 11:17:22,425 DEBUG   SenderThread:170219 [sender.py:send():382] send: stats
+2024-01-18 11:17:22,426 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 11:17:22,426 INFO    HandlerThread:170219 [handler.py:handle_request_defer():172] handle defer: 3
+2024-01-18 11:17:22,426 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: defer
+2024-01-18 11:17:22,426 INFO    SenderThread:170219 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-01-18 11:17:22,426 INFO    SenderThread:170219 [sender.py:transition_state():617] send defer: 4
+2024-01-18 11:17:22,426 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 11:17:22,426 INFO    HandlerThread:170219 [handler.py:handle_request_defer():172] handle defer: 4
+2024-01-18 11:17:22,426 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: defer
+2024-01-18 11:17:22,426 INFO    SenderThread:170219 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-01-18 11:17:22,426 INFO    SenderThread:170219 [sender.py:transition_state():617] send defer: 5
+2024-01-18 11:17:22,426 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 11:17:22,426 INFO    HandlerThread:170219 [handler.py:handle_request_defer():172] handle defer: 5
+2024-01-18 11:17:22,427 DEBUG   SenderThread:170219 [sender.py:send():382] send: summary
+2024-01-18 11:17:22,427 INFO    SenderThread:170219 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-18 11:17:22,427 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: defer
+2024-01-18 11:17:22,427 INFO    SenderThread:170219 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-01-18 11:17:22,427 INFO    SenderThread:170219 [sender.py:transition_state():617] send defer: 6
+2024-01-18 11:17:22,427 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 11:17:22,427 INFO    HandlerThread:170219 [handler.py:handle_request_defer():172] handle defer: 6
+2024-01-18 11:17:22,427 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: defer
+2024-01-18 11:17:22,427 INFO    SenderThread:170219 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-01-18 11:17:22,430 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:17:22,682 INFO    SenderThread:170219 [sender.py:transition_state():617] send defer: 7
+2024-01-18 11:17:22,682 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 11:17:22,682 INFO    HandlerThread:170219 [handler.py:handle_request_defer():172] handle defer: 7
+2024-01-18 11:17:22,682 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: defer
+2024-01-18 11:17:22,682 INFO    SenderThread:170219 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-01-18 11:17:23,186 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/wandb-summary.json
+2024-01-18 11:17:23,187 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/config.yaml
+2024-01-18 11:17:23,313 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-18 11:17:24,039 INFO    SenderThread:170219 [sender.py:transition_state():617] send defer: 8
+2024-01-18 11:17:24,040 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: poll_exit
+2024-01-18 11:17:24,040 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 11:17:24,040 INFO    HandlerThread:170219 [handler.py:handle_request_defer():172] handle defer: 8
+2024-01-18 11:17:24,040 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: defer
+2024-01-18 11:17:24,040 INFO    SenderThread:170219 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-01-18 11:17:24,040 INFO    SenderThread:170219 [job_builder.py:build():296] Attempting to build job artifact
+2024-01-18 11:17:24,041 INFO    SenderThread:170219 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-01-18 11:17:24,041 INFO    SenderThread:170219 [job_builder.py:build():402] adding wandb-job metadata file
+2024-01-18 11:17:24,045 INFO    SenderThread:170219 [sender.py:transition_state():617] send defer: 9
+2024-01-18 11:17:24,046 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 11:17:24,046 DEBUG   SenderThread:170219 [sender.py:send():382] send: artifact
+2024-01-18 11:17:24,046 INFO    HandlerThread:170219 [handler.py:handle_request_defer():172] handle defer: 9
+2024-01-18 11:17:24,187 INFO    Thread-61 :170219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/output.log
+2024-01-18 11:17:24,313 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-18 11:17:25,225 INFO    SenderThread:170219 [sender.py:send_artifact():1494] sent artifact job-git_github.com_leejoonpyoo_RL_Study.git_Project_CartPole_main.py - {'id': 'QXJ0aWZhY3Q6NjkzNTA4MTYx', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEzMTA2MjU2Nw==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NjkzNTA4MTYx', 'versionIndex': 1}}}
+2024-01-18 11:17:25,225 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: defer
+2024-01-18 11:17:25,225 INFO    SenderThread:170219 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-01-18 11:17:25,225 INFO    SenderThread:170219 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-01-18 11:17:26,187 INFO    SenderThread:170219 [dir_watcher.py:finish():388] scan: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files
+2024-01-18 11:17:26,187 INFO    SenderThread:170219 [dir_watcher.py:finish():402] scan save: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/conda-environment.yaml conda-environment.yaml
+2024-01-18 11:17:26,188 INFO    SenderThread:170219 [dir_watcher.py:finish():402] scan save: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/output.log output.log
+2024-01-18 11:17:26,189 INFO    SenderThread:170219 [dir_watcher.py:finish():402] scan save: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/requirements.txt requirements.txt
+2024-01-18 11:17:26,190 INFO    SenderThread:170219 [dir_watcher.py:finish():402] scan save: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/config.yaml config.yaml
+2024-01-18 11:17:26,190 INFO    SenderThread:170219 [dir_watcher.py:finish():402] scan save: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/wandb-metadata.json wandb-metadata.json
+2024-01-18 11:17:26,190 INFO    SenderThread:170219 [dir_watcher.py:finish():402] scan save: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/wandb-summary.json wandb-summary.json
+2024-01-18 11:17:26,190 INFO    SenderThread:170219 [sender.py:transition_state():617] send defer: 10
+2024-01-18 11:17:26,190 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: poll_exit
+2024-01-18 11:17:26,190 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 11:17:26,192 INFO    HandlerThread:170219 [handler.py:handle_request_defer():172] handle defer: 10
+2024-01-18 11:17:26,195 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: defer
+2024-01-18 11:17:26,195 INFO    SenderThread:170219 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-01-18 11:17:26,197 INFO    SenderThread:170219 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-18 11:17:26,313 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-18 11:17:26,314 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: poll_exit
+2024-01-18 11:17:26,868 INFO    wandb-upload_0:170219 [upload_job.py:push():131] Uploaded file /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/conda-environment.yaml
+2024-01-18 11:17:27,031 INFO    wandb-upload_1:170219 [upload_job.py:push():131] Uploaded file /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/output.log
+2024-01-18 11:17:27,038 INFO    wandb-upload_3:170219 [upload_job.py:push():131] Uploaded file /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/config.yaml
+2024-01-18 11:17:27,045 INFO    wandb-upload_4:170219 [upload_job.py:push():131] Uploaded file /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/wandb-summary.json
+2024-01-18 11:17:27,068 INFO    wandb-upload_2:170219 [upload_job.py:push():131] Uploaded file /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/files/requirements.txt
+2024-01-18 11:17:27,269 INFO    Thread-60 :170219 [sender.py:transition_state():617] send defer: 11
+2024-01-18 11:17:27,269 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 11:17:27,269 INFO    HandlerThread:170219 [handler.py:handle_request_defer():172] handle defer: 11
+2024-01-18 11:17:27,269 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: defer
+2024-01-18 11:17:27,269 INFO    SenderThread:170219 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-01-18 11:17:27,269 INFO    SenderThread:170219 [file_pusher.py:join():181] waiting for file pusher
+2024-01-18 11:17:27,269 INFO    SenderThread:170219 [sender.py:transition_state():617] send defer: 12
+2024-01-18 11:17:27,269 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 11:17:27,269 INFO    HandlerThread:170219 [handler.py:handle_request_defer():172] handle defer: 12
+2024-01-18 11:17:27,269 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: defer
+2024-01-18 11:17:27,269 INFO    SenderThread:170219 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-01-18 11:17:27,270 INFO    SenderThread:170219 [file_stream.py:finish():595] file stream finish called
+2024-01-18 11:17:27,314 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-18 11:17:28,837 INFO    SenderThread:170219 [file_stream.py:finish():599] file stream finish is done
+2024-01-18 11:17:28,837 INFO    SenderThread:170219 [sender.py:transition_state():617] send defer: 13
+2024-01-18 11:17:28,837 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: poll_exit
+2024-01-18 11:17:28,837 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 11:17:28,837 INFO    HandlerThread:170219 [handler.py:handle_request_defer():172] handle defer: 13
+2024-01-18 11:17:28,837 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: defer
+2024-01-18 11:17:28,838 INFO    SenderThread:170219 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-01-18 11:17:28,838 INFO    SenderThread:170219 [sender.py:transition_state():617] send defer: 14
+2024-01-18 11:17:28,838 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: defer
+2024-01-18 11:17:28,838 INFO    HandlerThread:170219 [handler.py:handle_request_defer():172] handle defer: 14
+2024-01-18 11:17:28,838 DEBUG   SenderThread:170219 [sender.py:send():382] send: final
+2024-01-18 11:17:28,838 DEBUG   SenderThread:170219 [sender.py:send():382] send: footer
+2024-01-18 11:17:28,838 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: defer
+2024-01-18 11:17:28,838 INFO    SenderThread:170219 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-01-18 11:17:28,839 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-18 11:17:28,839 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: poll_exit
+2024-01-18 11:17:28,839 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-18 11:17:28,840 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: server_info
+2024-01-18 11:17:28,840 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: server_info
+2024-01-18 11:17:28,882 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: get_summary
+2024-01-18 11:17:28,882 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: sampled_history
+2024-01-18 11:17:28,883 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: job_info
+2024-01-18 11:17:29,060 DEBUG   SenderThread:170219 [sender.py:send_request():409] send_request: job_info
+2024-01-18 11:17:29,061 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: status_report
+2024-01-18 11:17:29,061 DEBUG   HandlerThread:170219 [handler.py:handle_request():146] handle_request: shutdown
+2024-01-18 11:17:29,061 INFO    HandlerThread:170219 [handler.py:finish():869] shutting down handler
+2024-01-18 11:17:30,061 INFO    SenderThread:170219 [sender.py:finish():1572] shutting down sender
+2024-01-18 11:17:30,061 INFO    SenderThread:170219 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-18 11:17:30,061 INFO    SenderThread:170219 [file_pusher.py:join():181] waiting for file pusher
+2024-01-18 11:17:30,061 INFO    WriterThread:170219 [datastore.py:close():296] close: /home/junpyolee/git_repository/RL_Study/Project/CartPole/wandb/run-20240118_110029-qoj5xzen/run-qoj5xzen.wandb

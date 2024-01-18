@@ -1,0 +1,26 @@
+/home/junpyolee/anaconda3/envs/kotorch/lib/python3.8/site-packages/gym/utils/passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+# of episode :20, avg score : 24.7
+# of episode :40, avg score : 19.2
+# of episode :60, avg score : 19.0
+# of episode :80, avg score : 28.4
+# of episode :100, avg score : 23.1
+# of episode :120, avg score : 26.9
+# of episode :140, avg score : 28.1
+# of episode :160, avg score : 30.4
+# of episode :180, avg score : 41.0
+# of episode :200, avg score : 46.3
+# of episode :220, avg score : 43.9
+# of episode :240, avg score : 48.9
+# of episode :260, avg score : 59.5
+# of episode :280, avg score : 83.5
+# of episode :300, avg score : 68.2
+# of episode :320, avg score : 98.6
+# of episode :340, avg score : 118.1
+# of episode :360, avg score : 177.1
+# of episode :380, avg score : 104.1
+# of episode :400, avg score : 118.7
+# of episode :420, avg score : 179.2
+# of episode :440, avg score : 231.9
+# of episode :460, avg score : 143.1
+# of episode :480, avg score : 114.8

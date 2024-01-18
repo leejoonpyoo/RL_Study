@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "Project/Pendulum/main.py", line 93, in <module>
+    main()
+  File "Project/Pendulum/main.py", line 51, in main
+    mu, std = model.pi(torch.from_numpy(s).float())
+  File "/home/junpyolee/git_repository/RL_Study/Project/Pendulum/src/ActorCritic.py", line 28, in pi
+    return prob
+NameError: name 'prob' is not defined

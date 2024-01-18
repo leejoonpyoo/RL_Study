@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "main.py", line 87, in <module>
+    main()
+  File "main.py", line 66, in main
+    prob = model(torch.from_numpy(s).float())
+  File "/home/junpyolee/anaconda3/envs/kotorch/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/junpyolee/anaconda3/envs/kotorch/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/junpyolee/anaconda3/envs/kotorch/lib/python3.8/site-packages/torch/nn/modules/module.py", line 372, in _forward_unimplemented
+    raise NotImplementedError(f"Module [{type(self).__name__}] is missing the required \"forward\" function")
+NotImplementedError: Module [REINFORCE] is missing the required "forward" function
