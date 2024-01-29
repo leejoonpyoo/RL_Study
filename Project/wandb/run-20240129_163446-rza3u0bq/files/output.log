@@ -1,0 +1,26 @@
+/home/junpyolee/anaconda3/envs/kotorch/lib/python3.8/site-packages/gym/utils/passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+# of episode :20, avg score : -1602.1, optmization step: 400
+# of episode :40, avg score : -1454.6, optmization step: 800
+# of episode :60, avg score : -1311.3, optmization step: 1200
+# of episode :80, avg score : -1297.5, optmization step: 1600
+# of episode :100, avg score : -1418.0, optmization step: 2100
+# of episode :120, avg score : -1167.8, optmization step: 2500
+# of episode :140, avg score : -1255.4, optmization step: 2900
+# of episode :160, avg score : -1167.1, optmization step: 3300
+# of episode :180, avg score : -1209.6, optmization step: 3700
+# of episode :200, avg score : -1080.7, optmization step: 4200
+# of episode :220, avg score : -1120.9, optmization step: 4600
+# of episode :240, avg score : -1107.4, optmization step: 5000
+# of episode :260, avg score : -1008.2, optmization step: 5400
+# of episode :280, avg score : -942.8, optmization step: 5800
+# of episode :300, avg score : -943.2, optmization step: 6300
+# of episode :320, avg score : -923.8, optmization step: 6700
+# of episode :340, avg score : -843.7, optmization step: 7100
+# of episode :360, avg score : -641.1, optmization step: 7500
+# of episode :380, avg score : -733.2, optmization step: 7900
+# of episode :400, avg score : -716.7, optmization step: 8300
+# of episode :420, avg score : -761.1, optmization step: 8800
+# of episode :440, avg score : -595.3, optmization step: 9200
+# of episode :460, avg score : -794.2, optmization step: 9600
+# of episode :480, avg score : -618.0, optmization step: 10000

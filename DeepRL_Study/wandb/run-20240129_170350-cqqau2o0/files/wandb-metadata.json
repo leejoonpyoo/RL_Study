@@ -1,0 +1,168 @@
+{
+    "os": "Linux-6.5.0-15-generic-x86_64-with-glibc2.17",
+    "python": "3.8.18",
+    "heartbeatAt": "2024-01-29T08:03:51.909991",
+    "startedAt": "2024-01-29T08:03:50.206536",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "DDPG.py",
+    "codePathLocal": "DDPG.py",
+    "codePath": "DeepRL_Study/DDPG.py",
+    "git": {
+        "remote": "git@github.com:leejoonpyoo/RL_Study.git",
+        "commit": "2949530a2591de45f5653cf57e8386fe6e3dd661"
+    },
+    "email": "leejoonpyoo@kaist.ac.kr",
+    "root": "/home/junpyolee/git_repository/RL_Study",
+    "host": "junpyolee-linux-server",
+    "username": "junpyolee",
+    "executable": "/home/junpyolee/anaconda3/envs/kotorch/bin/python",
+    "cpu_count": 12,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 3210.6384166666667,
+        "min": 2200.0,
+        "max": 3700.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3764.262,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3791.253,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2257.963,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 4733.762,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2255.399,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3539.931,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3489.912,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3532.86,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3731.193,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 4050.987,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3720.518,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3581.571,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2899.56,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3813.959,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 4773.567,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 4523.117,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3280.83,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3722.581,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 4688.871,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3617.183,
+            "min": 2200.0,
+            "max": 3700.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 915.3213348388672,
+            "used": 85.05305480957031
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4070",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4070",
+            "memory_total": 12878610432
+        }
+    ],
+    "memory": {
+        "total": 62.69356155395508
+    }
+}

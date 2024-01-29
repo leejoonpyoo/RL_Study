@@ -1,8 +1,0 @@
-/home/junpyolee/anaconda3/envs/kotorch/lib/python3.8/site-packages/gym/utils/passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
-  if not isinstance(terminated, (bool, np.bool8)):
-Traceback (most recent call last):
-  File "Project/Pendulum/main.py", line 91, in <module>
-    main()
-  File "Project/Pendulum/main.py", line 55, in main
-    model.put_data(s, a, r/10.0, s_prime, log_prob.item(), done)
-TypeError: put_data() takes 2 positional arguments but 7 were given

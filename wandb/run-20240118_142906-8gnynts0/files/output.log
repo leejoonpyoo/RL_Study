@@ -1,8 +1,0 @@
-/home/junpyolee/anaconda3/envs/kotorch/lib/python3.8/site-packages/gym/utils/passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
-  if not isinstance(terminated, (bool, np.bool8)):
-# of episode :20, avg score : -1516.9
-# of episode :40, avg score : -1483.7
-# of episode :60, avg score : -1414.5
-# of episode :80, avg score : -1438.5
-# of episode :100, avg score : -1388.2
-# of episode :120, avg score : -1404.9

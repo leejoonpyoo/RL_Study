@@ -1,0 +1,320 @@
+2024-01-29 16:46:24,170 INFO    StreamThr :11196 [internal.py:wandb_internal():86] W&B internal server running at pid: 11196, started at: 2024-01-29 16:46:24.169789
+2024-01-29 16:46:24,171 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: status
+2024-01-29 16:46:24,172 INFO    WriterThread:11196 [datastore.py:open_for_write():87] open: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/run-wo12zd44.wandb
+2024-01-29 16:46:24,172 DEBUG   SenderThread:11196 [sender.py:send():382] send: header
+2024-01-29 16:46:24,172 DEBUG   SenderThread:11196 [sender.py:send():382] send: run
+2024-01-29 16:46:24,855 INFO    SenderThread:11196 [dir_watcher.py:__init__():211] watching files in: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files
+2024-01-29 16:46:24,855 INFO    SenderThread:11196 [sender.py:_start_run_threads():1136] run started: wo12zd44 with start time 1706514383.232727
+2024-01-29 16:46:24,863 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: check_version
+2024-01-29 16:46:24,863 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: check_version
+2024-01-29 16:46:24,926 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: run_start
+2024-01-29 16:46:24,927 DEBUG   HandlerThread:11196 [system_info.py:__init__():27] System info init
+2024-01-29 16:46:24,927 DEBUG   HandlerThread:11196 [system_info.py:__init__():42] System info init done
+2024-01-29 16:46:24,927 INFO    HandlerThread:11196 [system_monitor.py:start():194] Starting system monitor
+2024-01-29 16:46:24,927 INFO    SystemMonitor:11196 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-01-29 16:46:24,928 INFO    HandlerThread:11196 [system_monitor.py:probe():214] Collecting system info
+2024-01-29 16:46:24,928 INFO    SystemMonitor:11196 [interfaces.py:start():190] Started cpu monitoring
+2024-01-29 16:46:24,928 INFO    SystemMonitor:11196 [interfaces.py:start():190] Started disk monitoring
+2024-01-29 16:46:24,929 INFO    SystemMonitor:11196 [interfaces.py:start():190] Started gpu monitoring
+2024-01-29 16:46:24,929 INFO    SystemMonitor:11196 [interfaces.py:start():190] Started memory monitoring
+2024-01-29 16:46:24,930 INFO    SystemMonitor:11196 [interfaces.py:start():190] Started network monitoring
+2024-01-29 16:46:24,939 DEBUG   HandlerThread:11196 [system_info.py:probe():151] Probing system
+2024-01-29 16:46:24,940 DEBUG   HandlerThread:11196 [system_info.py:_probe_git():136] Probing git
+2024-01-29 16:46:24,958 DEBUG   HandlerThread:11196 [system_info.py:_probe_git():144] Probing git done
+2024-01-29 16:46:24,958 DEBUG   HandlerThread:11196 [system_info.py:probe():199] Probing system done
+2024-01-29 16:46:24,958 DEBUG   HandlerThread:11196 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-15-generic-x86_64-with-glibc2.17', 'python': '3.8.18', 'heartbeatAt': '2024-01-29T07:46:24.939824', 'startedAt': '2024-01-29T07:46:23.228824', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'Pendulum/DDPG.py', 'codePathLocal': 'Pendulum/DDPG.py', 'codePath': 'Project/Pendulum/DDPG.py', 'git': {'remote': 'git@github.com:leejoonpyoo/RL_Study.git', 'commit': '2949530a2591de45f5653cf57e8386fe6e3dd661'}, 'email': 'leejoonpyoo@kaist.ac.kr', 'root': '/home/junpyolee/git_repository/RL_Study', 'host': 'junpyolee-linux-server', 'username': 'junpyolee', 'executable': '/home/junpyolee/anaconda3/envs/kotorch/bin/python', 'cpu_count': 12, 'cpu_count_logical': 24, 'cpu_freq': {'current': 2883.8107916666663, 'min': 2200.0, 'max': 3700.0}, 'cpu_freq_per_core': [{'current': 2999.517, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 3592.488, 'min': 2200.0, 'max': 3700.0}, {'current': 3594.347, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2833.988, 'min': 2200.0, 'max': 3700.0}, {'current': 2815.869, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 3592.452, 'min': 2200.0, 'max': 3700.0}, {'current': 2874.515, 'min': 2200.0, 'max': 3700.0}, {'current': 2874.474, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 3588.585, 'min': 2200.0, 'max': 3700.0}, {'current': 3594.72, 'min': 2200.0, 'max': 3700.0}, {'current': 2873.284, 'min': 2200.0, 'max': 3700.0}, {'current': 2869.917, 'min': 2200.0, 'max': 3700.0}, {'current': 2874.413, 'min': 2200.0, 'max': 3700.0}, {'current': 3592.446, 'min': 2200.0, 'max': 3700.0}, {'current': 3591.151, 'min': 2200.0, 'max': 3700.0}, {'current': 2617.506, 'min': 2200.0, 'max': 3700.0}, {'current': 3409.764, 'min': 2200.0, 'max': 3700.0}], 'disk': {'/': {'total': 915.3213348388672, 'used': 85.0528564453125}}, 'gpu': 'NVIDIA GeForce RTX 4070', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4070', 'memory_total': 12878610432}], 'memory': {'total': 62.69356155395508}}
+2024-01-29 16:46:24,958 INFO    HandlerThread:11196 [system_monitor.py:probe():224] Finished collecting system info
+2024-01-29 16:46:24,958 INFO    HandlerThread:11196 [system_monitor.py:probe():227] Publishing system info
+2024-01-29 16:46:24,958 DEBUG   HandlerThread:11196 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-01-29 16:46:25,856 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_created():271] file/dir created: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/conda-environment.yaml
+2024-01-29 16:46:26,298 DEBUG   HandlerThread:11196 [system_info.py:_save_conda():220] Saving conda packages done
+2024-01-29 16:46:26,299 INFO    HandlerThread:11196 [system_monitor.py:probe():229] Finished publishing system info
+2024-01-29 16:46:26,299 DEBUG   SenderThread:11196 [sender.py:send():382] send: files
+2024-01-29 16:46:26,299 INFO    SenderThread:11196 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-01-29 16:46:26,304 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: python_packages
+2024-01-29 16:46:26,304 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: python_packages
+2024-01-29 16:46:26,304 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-29 16:46:26,304 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: stop_status
+2024-01-29 16:46:26,305 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-29 16:46:26,671 DEBUG   SenderThread:11196 [sender.py:send():382] send: telemetry
+2024-01-29 16:46:26,855 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/conda-environment.yaml
+2024-01-29 16:46:26,856 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_created():271] file/dir created: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/wandb-metadata.json
+2024-01-29 16:46:26,856 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_created():271] file/dir created: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/requirements.txt
+2024-01-29 16:46:26,856 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_created():271] file/dir created: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/output.log
+2024-01-29 16:46:27,009 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 16:46:27,010 DEBUG   SenderThread:11196 [sender.py:send():382] send: history
+2024-01-29 16:46:27,011 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 16:46:27,012 INFO    SenderThread:11196 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 16:46:27,180 INFO    wandb-upload_0:11196 [upload_job.py:push():131] Uploaded file /tmp/tmpsybdlrgywandb/hwsmdscb-wandb-metadata.json
+2024-01-29 16:46:27,856 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_created():271] file/dir created: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/wandb-summary.json
+2024-01-29 16:46:27,872 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 16:46:27,873 DEBUG   SenderThread:11196 [sender.py:send():382] send: history
+2024-01-29 16:46:27,873 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 16:46:27,873 INFO    SenderThread:11196 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 16:46:28,773 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 16:46:28,774 DEBUG   SenderThread:11196 [sender.py:send():382] send: history
+2024-01-29 16:46:28,774 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 16:46:28,774 INFO    SenderThread:11196 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 16:46:28,856 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/output.log
+2024-01-29 16:46:28,856 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/wandb-summary.json
+2024-01-29 16:46:29,716 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 16:46:29,716 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: status_report
+2024-01-29 16:46:29,717 DEBUG   SenderThread:11196 [sender.py:send():382] send: history
+2024-01-29 16:46:29,717 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 16:46:29,717 INFO    SenderThread:11196 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 16:46:29,856 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/output.log
+2024-01-29 16:46:29,856 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/wandb-summary.json
+2024-01-29 16:46:30,565 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 16:46:30,565 DEBUG   SenderThread:11196 [sender.py:send():382] send: history
+2024-01-29 16:46:30,565 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 16:46:30,566 INFO    SenderThread:11196 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 16:46:30,856 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/wandb-summary.json
+2024-01-29 16:46:31,394 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 16:46:31,395 DEBUG   SenderThread:11196 [sender.py:send():382] send: history
+2024-01-29 16:46:31,395 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 16:46:31,395 INFO    SenderThread:11196 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 16:46:31,857 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/output.log
+2024-01-29 16:46:31,857 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/wandb-summary.json
+2024-01-29 16:46:32,225 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 16:46:32,225 DEBUG   SenderThread:11196 [sender.py:send():382] send: history
+2024-01-29 16:46:32,225 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 16:46:32,226 INFO    SenderThread:11196 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 16:46:32,857 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/wandb-summary.json
+2024-01-29 16:46:33,054 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 16:46:33,055 DEBUG   SenderThread:11196 [sender.py:send():382] send: history
+2024-01-29 16:46:33,055 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 16:46:33,055 INFO    SenderThread:11196 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 16:46:33,857 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/output.log
+2024-01-29 16:46:33,857 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/wandb-summary.json
+2024-01-29 16:46:33,912 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 16:46:33,913 DEBUG   SenderThread:11196 [sender.py:send():382] send: history
+2024-01-29 16:46:33,913 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 16:46:33,913 INFO    SenderThread:11196 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 16:46:34,776 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 16:46:34,777 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: status_report
+2024-01-29 16:46:34,777 DEBUG   SenderThread:11196 [sender.py:send():382] send: history
+2024-01-29 16:46:34,777 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 16:46:34,777 INFO    SenderThread:11196 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 16:46:34,857 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/wandb-summary.json
+2024-01-29 16:46:35,641 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 16:46:35,642 DEBUG   SenderThread:11196 [sender.py:send():382] send: history
+2024-01-29 16:46:35,642 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 16:46:35,642 INFO    SenderThread:11196 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 16:46:35,858 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/output.log
+2024-01-29 16:46:35,858 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/wandb-summary.json
+2024-01-29 16:46:36,555 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 16:46:36,556 DEBUG   SenderThread:11196 [sender.py:send():382] send: history
+2024-01-29 16:46:36,556 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 16:46:36,556 INFO    SenderThread:11196 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 16:46:36,858 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/wandb-summary.json
+2024-01-29 16:46:37,439 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 16:46:37,439 DEBUG   SenderThread:11196 [sender.py:send():382] send: history
+2024-01-29 16:46:37,440 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 16:46:37,440 INFO    SenderThread:11196 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 16:46:37,858 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/output.log
+2024-01-29 16:46:37,858 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/wandb-summary.json
+2024-01-29 16:46:38,297 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 16:46:38,298 DEBUG   SenderThread:11196 [sender.py:send():382] send: history
+2024-01-29 16:46:38,298 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 16:46:38,298 INFO    SenderThread:11196 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 16:46:38,858 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/wandb-summary.json
+2024-01-29 16:46:39,156 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 16:46:39,157 DEBUG   SenderThread:11196 [sender.py:send():382] send: history
+2024-01-29 16:46:39,157 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 16:46:39,157 INFO    SenderThread:11196 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 16:46:39,859 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/output.log
+2024-01-29 16:46:39,859 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/wandb-summary.json
+2024-01-29 16:46:40,050 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 16:46:40,051 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: status_report
+2024-01-29 16:46:40,051 DEBUG   SenderThread:11196 [sender.py:send():382] send: history
+2024-01-29 16:46:40,051 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 16:46:40,051 INFO    SenderThread:11196 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 16:46:40,859 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/wandb-summary.json
+2024-01-29 16:46:40,928 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 16:46:40,929 DEBUG   SenderThread:11196 [sender.py:send():382] send: history
+2024-01-29 16:46:40,929 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 16:46:40,930 INFO    SenderThread:11196 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 16:46:41,304 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-29 16:46:41,304 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: stop_status
+2024-01-29 16:46:41,304 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-29 16:46:41,859 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/output.log
+2024-01-29 16:46:41,859 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/wandb-summary.json
+2024-01-29 16:46:41,876 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 16:46:41,877 DEBUG   SenderThread:11196 [sender.py:send():382] send: history
+2024-01-29 16:46:41,877 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 16:46:41,877 INFO    SenderThread:11196 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 16:46:42,738 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 16:46:42,738 DEBUG   SenderThread:11196 [sender.py:send():382] send: history
+2024-01-29 16:46:42,738 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 16:46:42,738 INFO    SenderThread:11196 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 16:46:42,859 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/wandb-summary.json
+2024-01-29 16:46:43,600 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 16:46:43,601 DEBUG   SenderThread:11196 [sender.py:send():382] send: history
+2024-01-29 16:46:43,601 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 16:46:43,601 INFO    SenderThread:11196 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 16:46:43,860 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/output.log
+2024-01-29 16:46:43,860 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/wandb-summary.json
+2024-01-29 16:46:44,489 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 16:46:44,490 DEBUG   SenderThread:11196 [sender.py:send():382] send: history
+2024-01-29 16:46:44,490 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 16:46:44,490 INFO    SenderThread:11196 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 16:46:44,860 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/wandb-summary.json
+2024-01-29 16:46:45,348 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 16:46:45,349 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: status_report
+2024-01-29 16:46:45,349 DEBUG   SenderThread:11196 [sender.py:send():382] send: history
+2024-01-29 16:46:45,349 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 16:46:45,349 INFO    SenderThread:11196 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 16:46:45,860 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/output.log
+2024-01-29 16:46:45,860 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/wandb-summary.json
+2024-01-29 16:46:46,197 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 16:46:46,198 DEBUG   SenderThread:11196 [sender.py:send():382] send: history
+2024-01-29 16:46:46,198 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 16:46:46,198 INFO    SenderThread:11196 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 16:46:46,860 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/wandb-summary.json
+2024-01-29 16:46:47,041 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-29 16:46:47,041 DEBUG   SenderThread:11196 [sender.py:send():382] send: history
+2024-01-29 16:46:47,042 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: summary_record
+2024-01-29 16:46:47,042 INFO    SenderThread:11196 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 16:46:47,843 DEBUG   SenderThread:11196 [sender.py:send():382] send: telemetry
+2024-01-29 16:46:47,844 DEBUG   SenderThread:11196 [sender.py:send():382] send: exit
+2024-01-29 16:46:47,844 INFO    SenderThread:11196 [sender.py:send_exit():589] handling exit code: 0
+2024-01-29 16:46:47,844 INFO    SenderThread:11196 [sender.py:send_exit():591] handling runtime: 22
+2024-01-29 16:46:47,844 INFO    SenderThread:11196 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 16:46:47,844 INFO    SenderThread:11196 [sender.py:send_exit():597] send defer
+2024-01-29 16:46:47,844 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: defer
+2024-01-29 16:46:47,844 INFO    HandlerThread:11196 [handler.py:handle_request_defer():172] handle defer: 0
+2024-01-29 16:46:47,844 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: defer
+2024-01-29 16:46:47,844 INFO    SenderThread:11196 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-01-29 16:46:47,844 INFO    SenderThread:11196 [sender.py:transition_state():617] send defer: 1
+2024-01-29 16:46:47,844 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: defer
+2024-01-29 16:46:47,844 INFO    HandlerThread:11196 [handler.py:handle_request_defer():172] handle defer: 1
+2024-01-29 16:46:47,845 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: defer
+2024-01-29 16:46:47,845 INFO    SenderThread:11196 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-01-29 16:46:47,845 INFO    SenderThread:11196 [sender.py:transition_state():617] send defer: 2
+2024-01-29 16:46:47,845 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: defer
+2024-01-29 16:46:47,845 INFO    HandlerThread:11196 [handler.py:handle_request_defer():172] handle defer: 2
+2024-01-29 16:46:47,845 INFO    HandlerThread:11196 [system_monitor.py:finish():203] Stopping system monitor
+2024-01-29 16:46:47,845 DEBUG   SystemMonitor:11196 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-01-29 16:46:47,845 INFO    HandlerThread:11196 [interfaces.py:finish():202] Joined cpu monitor
+2024-01-29 16:46:47,845 DEBUG   SystemMonitor:11196 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-01-29 16:46:47,845 INFO    HandlerThread:11196 [interfaces.py:finish():202] Joined disk monitor
+2024-01-29 16:46:47,845 DEBUG   SystemMonitor:11196 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-01-29 16:46:47,861 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/output.log
+2024-01-29 16:46:47,861 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/wandb-summary.json
+2024-01-29 16:46:47,906 INFO    HandlerThread:11196 [interfaces.py:finish():202] Joined gpu monitor
+2024-01-29 16:46:47,906 INFO    HandlerThread:11196 [interfaces.py:finish():202] Joined memory monitor
+2024-01-29 16:46:47,907 INFO    HandlerThread:11196 [interfaces.py:finish():202] Joined network monitor
+2024-01-29 16:46:47,907 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: defer
+2024-01-29 16:46:47,907 INFO    SenderThread:11196 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-01-29 16:46:47,907 INFO    SenderThread:11196 [sender.py:transition_state():617] send defer: 3
+2024-01-29 16:46:47,907 DEBUG   SenderThread:11196 [sender.py:send():382] send: stats
+2024-01-29 16:46:47,907 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: defer
+2024-01-29 16:46:47,907 INFO    HandlerThread:11196 [handler.py:handle_request_defer():172] handle defer: 3
+2024-01-29 16:46:47,907 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: defer
+2024-01-29 16:46:47,907 INFO    SenderThread:11196 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-01-29 16:46:47,907 INFO    SenderThread:11196 [sender.py:transition_state():617] send defer: 4
+2024-01-29 16:46:47,907 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: defer
+2024-01-29 16:46:47,907 INFO    HandlerThread:11196 [handler.py:handle_request_defer():172] handle defer: 4
+2024-01-29 16:46:47,908 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: defer
+2024-01-29 16:46:47,908 INFO    SenderThread:11196 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-01-29 16:46:47,908 INFO    SenderThread:11196 [sender.py:transition_state():617] send defer: 5
+2024-01-29 16:46:47,908 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: defer
+2024-01-29 16:46:47,908 INFO    HandlerThread:11196 [handler.py:handle_request_defer():172] handle defer: 5
+2024-01-29 16:46:47,908 DEBUG   SenderThread:11196 [sender.py:send():382] send: summary
+2024-01-29 16:46:47,908 INFO    SenderThread:11196 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-29 16:46:47,908 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: defer
+2024-01-29 16:46:47,908 INFO    SenderThread:11196 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-01-29 16:46:47,908 INFO    SenderThread:11196 [sender.py:transition_state():617] send defer: 6
+2024-01-29 16:46:47,908 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: defer
+2024-01-29 16:46:47,908 INFO    HandlerThread:11196 [handler.py:handle_request_defer():172] handle defer: 6
+2024-01-29 16:46:47,909 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: defer
+2024-01-29 16:46:47,909 INFO    SenderThread:11196 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-01-29 16:46:47,911 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: status_report
+2024-01-29 16:46:48,205 INFO    SenderThread:11196 [sender.py:transition_state():617] send defer: 7
+2024-01-29 16:46:48,205 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: defer
+2024-01-29 16:46:48,205 INFO    HandlerThread:11196 [handler.py:handle_request_defer():172] handle defer: 7
+2024-01-29 16:46:48,205 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: defer
+2024-01-29 16:46:48,205 INFO    SenderThread:11196 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-01-29 16:46:48,844 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-29 16:46:48,861 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/config.yaml
+2024-01-29 16:46:48,861 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/wandb-summary.json
+2024-01-29 16:46:49,041 INFO    SenderThread:11196 [sender.py:transition_state():617] send defer: 8
+2024-01-29 16:46:49,041 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: poll_exit
+2024-01-29 16:46:49,041 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: defer
+2024-01-29 16:46:49,041 INFO    HandlerThread:11196 [handler.py:handle_request_defer():172] handle defer: 8
+2024-01-29 16:46:49,041 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: defer
+2024-01-29 16:46:49,041 INFO    SenderThread:11196 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-01-29 16:46:49,041 INFO    SenderThread:11196 [job_builder.py:build():296] Attempting to build job artifact
+2024-01-29 16:46:49,042 INFO    SenderThread:11196 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-01-29 16:46:49,043 INFO    SenderThread:11196 [job_builder.py:build():402] adding wandb-job metadata file
+2024-01-29 16:46:49,047 INFO    SenderThread:11196 [sender.py:transition_state():617] send defer: 9
+2024-01-29 16:46:49,047 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: defer
+2024-01-29 16:46:49,047 DEBUG   SenderThread:11196 [sender.py:send():382] send: artifact
+2024-01-29 16:46:49,047 INFO    HandlerThread:11196 [handler.py:handle_request_defer():172] handle defer: 9
+2024-01-29 16:46:49,844 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-29 16:46:49,861 INFO    Thread-97 :11196 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/output.log
+2024-01-29 16:46:50,238 INFO    SenderThread:11196 [sender.py:send_artifact():1494] sent artifact job-git_github.com_leejoonpyoo_RL_Study.git_Project_Pendulum_DDPG.py - {'id': 'QXJ0aWZhY3Q6NzA2MjI2Mzg1', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEzNDcyNjU0Mw==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzA2MjI2Mzg1', 'versionIndex': 1}}}
+2024-01-29 16:46:50,238 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: defer
+2024-01-29 16:46:50,238 INFO    SenderThread:11196 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-01-29 16:46:50,238 INFO    SenderThread:11196 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-01-29 16:46:50,862 INFO    SenderThread:11196 [dir_watcher.py:finish():388] scan: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files
+2024-01-29 16:46:50,862 INFO    SenderThread:11196 [dir_watcher.py:finish():402] scan save: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/conda-environment.yaml conda-environment.yaml
+2024-01-29 16:46:50,862 INFO    SenderThread:11196 [dir_watcher.py:finish():402] scan save: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/output.log output.log
+2024-01-29 16:46:50,862 INFO    SenderThread:11196 [dir_watcher.py:finish():402] scan save: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/requirements.txt requirements.txt
+2024-01-29 16:46:50,862 INFO    SenderThread:11196 [dir_watcher.py:finish():402] scan save: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/config.yaml config.yaml
+2024-01-29 16:46:50,867 INFO    SenderThread:11196 [dir_watcher.py:finish():402] scan save: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/wandb-metadata.json wandb-metadata.json
+2024-01-29 16:46:50,867 INFO    SenderThread:11196 [dir_watcher.py:finish():402] scan save: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/wandb-summary.json wandb-summary.json
+2024-01-29 16:46:50,870 INFO    SenderThread:11196 [sender.py:transition_state():617] send defer: 10
+2024-01-29 16:46:50,871 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: poll_exit
+2024-01-29 16:46:50,871 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: defer
+2024-01-29 16:46:50,871 INFO    HandlerThread:11196 [handler.py:handle_request_defer():172] handle defer: 10
+2024-01-29 16:46:50,871 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: defer
+2024-01-29 16:46:50,872 INFO    SenderThread:11196 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-01-29 16:46:50,872 INFO    SenderThread:11196 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-29 16:46:51,392 INFO    wandb-upload_1:11196 [upload_job.py:push():131] Uploaded file /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/output.log
+2024-01-29 16:46:51,597 INFO    wandb-upload_0:11196 [upload_job.py:push():131] Uploaded file /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/conda-environment.yaml
+2024-01-29 16:46:51,689 INFO    wandb-upload_3:11196 [upload_job.py:push():131] Uploaded file /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/config.yaml
+2024-01-29 16:46:51,697 INFO    wandb-upload_2:11196 [upload_job.py:push():131] Uploaded file /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/requirements.txt
+2024-01-29 16:46:51,704 INFO    wandb-upload_4:11196 [upload_job.py:push():131] Uploaded file /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/files/wandb-summary.json
+2024-01-29 16:46:51,845 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-29 16:46:51,845 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: poll_exit
+2024-01-29 16:46:51,905 INFO    Thread-96 :11196 [sender.py:transition_state():617] send defer: 11
+2024-01-29 16:46:51,909 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: defer
+2024-01-29 16:46:51,909 INFO    HandlerThread:11196 [handler.py:handle_request_defer():172] handle defer: 11
+2024-01-29 16:46:51,909 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: defer
+2024-01-29 16:46:51,909 INFO    SenderThread:11196 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-01-29 16:46:51,910 INFO    SenderThread:11196 [file_pusher.py:join():181] waiting for file pusher
+2024-01-29 16:46:51,910 INFO    SenderThread:11196 [sender.py:transition_state():617] send defer: 12
+2024-01-29 16:46:51,910 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: defer
+2024-01-29 16:46:51,910 INFO    HandlerThread:11196 [handler.py:handle_request_defer():172] handle defer: 12
+2024-01-29 16:46:51,910 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: defer
+2024-01-29 16:46:51,910 INFO    SenderThread:11196 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-01-29 16:46:51,910 INFO    SenderThread:11196 [file_stream.py:finish():595] file stream finish called
+2024-01-29 16:46:52,150 INFO    SenderThread:11196 [file_stream.py:finish():599] file stream finish is done
+2024-01-29 16:46:52,150 INFO    SenderThread:11196 [sender.py:transition_state():617] send defer: 13
+2024-01-29 16:46:52,151 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: defer
+2024-01-29 16:46:52,151 INFO    HandlerThread:11196 [handler.py:handle_request_defer():172] handle defer: 13
+2024-01-29 16:46:52,151 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: defer
+2024-01-29 16:46:52,151 INFO    SenderThread:11196 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-01-29 16:46:52,151 INFO    SenderThread:11196 [sender.py:transition_state():617] send defer: 14
+2024-01-29 16:46:52,151 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: defer
+2024-01-29 16:46:52,152 INFO    HandlerThread:11196 [handler.py:handle_request_defer():172] handle defer: 14
+2024-01-29 16:46:52,152 DEBUG   SenderThread:11196 [sender.py:send():382] send: final
+2024-01-29 16:46:52,152 DEBUG   SenderThread:11196 [sender.py:send():382] send: footer
+2024-01-29 16:46:52,152 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: defer
+2024-01-29 16:46:52,152 INFO    SenderThread:11196 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-01-29 16:46:52,153 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-29 16:46:52,153 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: poll_exit
+2024-01-29 16:46:52,154 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-29 16:46:52,154 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: server_info
+2024-01-29 16:46:52,155 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: server_info
+2024-01-29 16:46:52,196 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: get_summary
+2024-01-29 16:46:52,196 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: sampled_history
+2024-01-29 16:46:52,197 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: job_info
+2024-01-29 16:46:52,387 DEBUG   SenderThread:11196 [sender.py:send_request():409] send_request: job_info
+2024-01-29 16:46:52,387 DEBUG   HandlerThread:11196 [handler.py:handle_request():146] handle_request: shutdown
+2024-01-29 16:46:52,388 INFO    HandlerThread:11196 [handler.py:finish():869] shutting down handler
+2024-01-29 16:46:53,197 INFO    WriterThread:11196 [datastore.py:close():296] close: /home/junpyolee/git_repository/RL_Study/Project/wandb/run-20240129_164623-wo12zd44/run-wo12zd44.wandb
+2024-01-29 16:46:53,387 INFO    SenderThread:11196 [sender.py:finish():1572] shutting down sender
+2024-01-29 16:46:53,387 INFO    SenderThread:11196 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-29 16:46:53,387 INFO    SenderThread:11196 [file_pusher.py:join():181] waiting for file pusher
